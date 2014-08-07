@@ -1,0 +1,32 @@
+button {
+   border-top: 1px solid #000000;
+   background: #d66565;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d66565), to(#d66565));
+   background: -webkit-linear-gradient(top, #8c0e0e, #d66565);
+   background:top, #8c0e0e, #d66565;
+   padding: 12.5px 25px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   text-align: center;
+   }
+button:hover {
+   border-top-color: #d66565;
+   background: #af0000;
+   color: #ffffff;
+   }
+button:active {
+   border-top-color: #000000;
+   background: #a52a2a;
+   color:#ffffff;
+   }
+   button:visited{
+    border:none;}
+
+    button:focus {outline:0;}
